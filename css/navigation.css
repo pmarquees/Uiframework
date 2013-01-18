@@ -1,0 +1,74 @@
+/**
+ *   Navegaces links e tudo que e hypertexto.
+ */
+ 
+/* top header */
+.header {
+    position: relative;
+    top: 0;
+    height: 70px;
+    
+    z-index: 100000000;
+}
+    .header.fixed {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: -65px;
+    }
+        .header.fixed:hover {
+            margin-top: 65px;
+        }
+        .header.fixed + * {
+            margin-top: 110px;
+        }
+    .header .title, .header .logo, .header ul {
+        float: left;
+        margin-right: 40px;
+    }
+        header .title, .header .logo {
+            position: relative;
+            top: 2px;
+            
+            display: inline-block;
+            line-height: 70px;
+        }
+    .header nav {
+        margin-right: 40px;
+    }
+        .header nav li {
+            float: left;
+            padding: 15px 0;
+        }
+            .header nav li a {
+                display: inline-block;
+                padding: 8px 20px;
+                margin-right: 20px;
+                
+                font-weight: 500;
+                text-decoration: none;
+                
+                border-radius: 5px;
+            }
+    .header .btn, .header button {
+        margin-top: 15px;
+    }
+
+    
+.navigation.vertical {
+    display: block;
+}
+    .navigation.vertical li {
+        border-bottom: 1px solid;
+    }
+        .navigation.vertical li:first-child {
+            border-top: 1px solid;
+        }
+    .navigation.vertical li a {
+        display: block;
+        padding: 8px 20px;
+        
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+    }

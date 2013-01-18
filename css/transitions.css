@@ -1,0 +1,11 @@
+/**
+	Melhorando as transicoes
+ */
+ 
+a, input, button, .btn, [type=submit], ::-webkit-file-upload-button {
+    -webkit-transition: color .2s, background .2s, border .2s;
+}
+
+.header {
+    -webkit-transition: margin-top .2s;
+}

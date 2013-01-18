@@ -1,0 +1,82 @@
+.center, .wrap {
+    margin: 0 auto 25px; 
+    overflow: hidden;   
+}
+    .wrap {
+        position: relative;
+        left: 20px;
+        
+        width: 1000px;
+    }
+    .wrap > * {
+        max-width: 960px;
+    }
+
+/* sistema de grids - from butterfly */
+[class*='col'], .content, .sidebar {
+    display: block;
+    
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+    .col12 { width: 960px; }
+    .col11 { width: 880px; }
+    .col10 { width: 799px; }
+    .col9 { width: 700px; }
+    .col8, .content { width: 634px; }
+    .col7 { width: 551px; }
+    .col6, .half, .full input, .full select, .full textarea { width: 470px; }
+    .col5 { width: 389px; }
+    .col4, .third, .sidebar { width: 307px; }
+    .col3, .full label, .full .help { width: 224px; }
+    .col2 { width: 143.5px; }
+    .col1 { width: 61.75px; }
+    
+/* Offsets */
+.offset8 { margin-left: 654px; }
+.offset7 { margin-left: 571px; }
+.offset6 { margin-left: 490px; }
+.offset5 { margin-left: 409px; }
+.offset4 { margin-left: 327px; }
+.offset3, .full button, .full [type=submit] { margin-left: 224px; }
+.offset2 { margin-left: 163.5px; }
+.offset1 { margin-left: 81.75px; }
+
+/* Negative offsets */
+.offset-12 { margin-left: -960px; }
+.offset-8 { margin-left: -634px; }
+.offset-7 { margin-left: -551px; }
+.offset-6 { margin-left: -470px; }
+.offset-5 { margin-left: -389px; }
+.offset-4 { margin-left: -307px; }
+.offset-3 { margin-left: -224px; }
+.offset-2 { margin-left: -143.5px; }
+.offset-1 { margin-left: -61.75px; }
+
+/* Pushoffs */
+.pad11 { margin-right: 900px; }
+.pad10 { margin-right: 829px; }
+.pad9 { margin-right: 720px; }
+.pad8 { margin-right: 654px; }
+.pad7 { margin-right: 571px; }
+.pad6 { margin-right: 490px; }
+.pad5 { margin-right: 409px; }
+.pad4 { margin-right: 327px; }
+.pad3 { margin-right: 224px; }
+.pad2 { margin-right: 163.5px; }
+.pad1 { margin-right: 81.75px; }
+/*grids from butterly*/
+
+.right {
+    float: right;
+}
+    .wrap > .right {
+        margin-right: 40px;
+    }
+.left, [class*='col'], .content, .sidebar {
+    float: left;
+}
+    
+.header {
+    margin-bottom: 40px;
+}

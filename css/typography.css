@@ -1,0 +1,54 @@
+/**
+    Uma bela tipografia nao mata ninguem
+ */
+ 
+body, html {
+    font: 13px/22px "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 300;
+    
+    padding-bottom: .4em;
+}
+h2 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 500;
+    
+    padding-bottom: 19px;
+}
+    .sidebar h2 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+h3 {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    
+    padding-bottom: .5em;
+}
+h4 {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+p, h4 {
+    padding-bottom: 1em;
+}
+
+i.hilite {
+    font-style: normal;
+}
+
+code, pre {
+    font: 90%/140% Inconsolata, monospace;
+}
+
+blockquote {
+    font: italic 14px/24px Georgia, serif;
+}

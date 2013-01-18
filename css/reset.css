@@ -1,0 +1,188 @@
+
+ /*   This is to reset the entire browser css
+ */
+ 
+* {
+    margin: 0;
+    padding: 0;
+    
+    -webkit-font-smoothing: antialiased;
+    
+    /* uma box model melhor */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    /* isto serve pra arrumar alguns bugs do IOS e do wp9 */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+    /* alguns browsers nao gostam do webkit */
+    ::-webkit-file-upload-button {
+        margin: 0;
+        padding: 0;
+        
+        -webkit-font-smoothing: antialiased;
+    }
+
+/**
+ *  corrigindo alguns bugs
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+audio:not([controls]), [hidden], .print-only {
+    display: none;
+}
+img, fieldset, legend {
+    border: none;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong, .bold {
+    font-weight: 500;
+}
+button, a, [type=submit], [href], label[for], [type=reset] {
+    cursor: pointer;
+}
+    ::-webkit-file-upload-button {
+        cursor: p;
+    }
+[disabled] {
+    opacity: .7;
+    cursor: default;
+}
+nav li {
+    list-style: none;
+}
+p a {
+    text-decoration: none;
+}
+
+span.hilite, i.hilite, mark {
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+blockquote {
+    padding: 20px 30px 10px;
+    border-radius: 5px;
+}
+    blockquote + cite {
+        position: relative;
+        display: block;
+        padding: 20px 0 40px 30px;
+        
+        font-weight: 500;
+        font-style: normal;
+    }
+        blockquote + cite:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 30px;
+            top: 0;
+            
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+        }
+
+/*
+ *   resetar inputs
+ */
+input, textarea, button {
+    font-family: inherit;
+}
+    ::-webkit-file-upload-button {
+        font-family: inherit;
+    }
+[type=search] {
+    -webkit-appearance: none;
+    appearance: normal;
+}
+    ::-webkit-search-cancel-button,
+    ::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+::-moz-focus-inner {
+    border: none;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+button, [type=button], [type=reset], [type=submit] {
+    border: none;
+    -webkit-appearance: button;
+    *overflow: visible;
+}
+
+/**
+ *   tabelas
+ */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    width: 100%;
+}
+    th, thead td {        
+        padding: 10px 15px;
+        
+        font-weight: bold;
+        text-align: left;
+    }
+    td {
+        padding: 6px 15px;
+        border-bottom: 1px solid #e3e7ee;
+    }
+    tr:nth-child(2n) {
+        background: #f6f8fb;
+    }
+    
+/**
+ *   listas
+ */
+ 
+ul, ol, dl {
+    margin: .4em 0 1em;
+    list-style: none;
+}
+    nav ul, nav ol, nav dl {
+        margin: 0;
+    }
+    li:before {
+        display: inline-block;
+        width: 15px;
+        padding-right: 5px;
+    }
+        nav li:before, .navigation li:before {
+            display: none;
+        }
+    ul li {
+        list-style: none;
+        list-style: square\9;
+    }
+        ul li:before {
+            content: '•';
+        }
+    ol li {
+        counter-increment: list;
+    }
+        ol li:before {
+            content: counter(list) '.';
+            font-weight: 500;
+        }
+
+dt {
+    display: block;
+    font-weight: 500;
+}
+    dd {
+        display: block;
+        padding-left: 20px;
+        margin-bottom: 1em;
+    }
