@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<!-- feito com carinho -->
+    <head>
+        <meta charset="utf-8">
+        <title>UIframe &mdash; Teste</title>
+        
+        <link rel="stylesheet" href="uiframe.css">
+       
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrap">
+                <nav>
+                    <b class="title">
+                        <img width="28" height="17" title="UiFrame" alt="UiFrame" src="">
+                    </b>
+                    <ul>
+                        <li><a href="#">sobre</a></li>
+                        <li class="active"><a href="#">Link Ativo</a></li>
+                        <li><a href="#">Aqui um do final</a></li>
+                        <li><a href="#">pronto</a></li>
+                    </ul>
+                    
+                    <a class="right btn" href="#">Download</a>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="wrap">
+            <section class="content">
+                <h1>Este é um <code>&lt;h1&gt;</code>, talvez</h1>
+                <p>E este é um conteúdo que vem com ele. Então <mark>provavelmente</mark> alguns otimos exemplos que posso colocar <code>aqui()</code>, MAS <b>here</b> aqui vai um link  <a href="http://google.com">pro Google</a> =).</p>
+            </section>
+        </div>
+        
+        <div class="wrap hilite">
+            <h2>Sistema de grids</h2>
+            
+            <div class="col12">12 colunas</div>
+            
+            <div class="col6">6 colunas</div>
+            <div class="col6">6 colunas</div>
+
+            <div class="col8">8 colunas</div>
+            <div class="col4">4 colunas</div>
+
+            <div class="col4">4 colunas</div>
+            <div class="col4">4 colunas</div>
+            <div class="col4">4 colunas</div>
+            
+            <div class="col2">2 colunas</div>
+            <div class="col2">2 colunas</div>
+            <div class="col2">2 colunas</div>
+            <div class="col2">2 colunas</div>
+            <div class="col2">2 colunas</div>
+            <div class="col2">2 colunas</div>
+            
+            <div class="col1">1</div>
+            <div class="col10">10 colunas</div>
+            <div class="col1">1</div>
+
+            <div class="col1">1</div>
+            <div class="col11">11 colunas</div>
+
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            <div class="col1">1</div>
+            
+            <div class="col5">5 colunas</div>
+            <div class="col3">3 colunas</div>
+            <div class="col4">4 colunas</div>
+
+            <div class="col5">5 colunas</div>
+            <div class="col7">7 colunas</div>
+
+            <div class="col1">1c</div>
+            <div class="col5">5 colunas</div>
+            <div class="col6">6 colunas</div>
+
+            <div class="col6">6 colunas</div>
+            <div class="col4">4 colunas</div>
+            <div class="col2">2 colunas</div>
+            
+            <div class="col2">2 colunas</div>
+            <div class="col8">8 colunas</div>
+            <div class="col2">2 colunas</div>
+            
+            <div class="col6 offset4">6 colunas, offset 4 colunas</div>
+            <div class="col2">2 colunas</div>
+        </div>
+        
+        <div class="wrap">
+            <form class="full">
+                <legend>Suas informacoes</legend>
+                
+                <p>
+                    <label for="test">
+                        nomezinho completinho
+                        
+                        <small class="help">coloca seu nome aqui, espertão.</small>
+                    </label>
+                    <input id="test" placeholder="teste teste teste">
+                </p>
+                
+                <p class="success">
+                    <label for="success-test">
+                        seu e-mail
+                        
+                        <small class="help">vai que vc esquece a senha? Aí tu vai precisar</small>
+                    </label>
+                    <input id="success-test" placeholder="testando testando testando" value="pedro@marksdesign.com.br">
+                    
+                    <span class="status">&#10003;</span>
+                </p>
+                
+                <p class="error">
+                    <label for="error-test">
+                        seu e-mail
+                        
+                        <small class="help">vai que vc esquece a senha? Aí tu vai precisar</small>
+                    </label>
+                    <input id="error-test" placeholder="testando testando testando" value="document.write('fail');">
+                </p>
+                
+                <p>
+                    <label for="select">
+                        Escolhe uma aí
+                    </label>
+                    
+                    <select id="select">
+                        <option>bacon</option>
+                        <option>bacon e cheddar</option>
+                        <option>bacon e hamburguer</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="bio">
+                        sua bio
+                        
+                        <small class="help">Quem és tu, brutus?</small>
+                    </label>
+                    <textarea id="bio"></textarea>
+                </p>
+                
+                <button>enviar</button>
+                <button class="green">outra coisa qualquer</button>
+            </form>
+        </div>
+            
+        <div class="wrap">
+            <div class="content">
+                <h2>um monte de coisa aleatoria</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. 
+    					Cras id urna. Morbi tincidunt, orci ac <a href="index.html">convallis aliquam</a>, lectus turpis varius lorem, eu 
+    					posuere nunc justo tempus leo.</p>
+    			
+    					<p>
+    					Donec mattis, purus nec placerat bibendum, <a href="index.html">dui pede condimentum</a> 
+    					odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra 
+    					condimentum, lorem tellus eleifend magna, <a href="index.html">eget fringilla velit</a> magna id neque. Curabitur vel urna. 
+    					In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. 
+    					Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu 
+    					posuere nunc justo tempus leo.</p>			
+    				
+    					<p class="postmeta">		
+    					<a href="index.html" class="readmore">Ler mais</a> |
+    					<a href="index.html" class="comments">Comentários (3)</a> |				
+    					<span class="date">18 de janeiro - 2013</span>	
+    					</p>
+    			
+    			
+    			<h2><a href="index.html">thururu</a></h2>
+    			
+    			<h3>texto e imagem</h3>
+    			
+    			<p><a href="http://getfirefox.com/"><img src="images/firefox-gray.jpg" width="100" height="120" alt="firefox" class="float-left" /></a>
+    			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. 
+    			Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu 
+    			posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum 
+    			odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra 
+    			condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. 
+    			In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. 
+    			Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu 
+    			posuere nunc justo tempus leo. 				
+    			</p>
+    			
+    			<p>
+             A <a href="style.html">link</a>, 
+    			<acronym title="this really isn't a very good description">acronym</acronym>, 
+    			<strong>strong text</strong> and 
+    			<del>deleted text</del>.
+             </p>
+    			
+    			<h3>Codigos!</h3>				
+    			<p><code>
+    			codigo-go { <br />
+    			font-weight: bold;<br />
+    			font-style: italic;<br />				
+    			}		
+    			</code></p>	
+    				
+    			<h3>Exemplo de lista</h3>
+    			
+    			<ol>
+    				<li>esta é</li>
+    				<li>uma lista ordenada</li>								
+    			</ol>	
+    							
+    			<ul>
+                    <li>esta é</li>
+                    <li>uma lista zoneada</li>     							
+    			</ul>			
+    				
+    			
+    			<h3>Blockquote</h3>
+    				
+    			<blockquote>
+    			<p>Frase aleatoria de algum filósofo de facebook.</p>
+    			</blockquote>
+    			<cite>João da padaria</cite>	
+    			
+    			<h3>Headers</h3>
+    						
+    			<h1>H1 Heading</h1>	
+    			<h2>H2 Heading</h2>		
+    			<h3>H3 Heading</h3>		
+    			<h4>H4 Heading</h4>						
+    				
+    			<h3>Tabular Data</h3>							
+    			<table>
+    				<tr>
+    					<th><strong>post date</strong></th>
+    					<th>title</th>
+    					<th>description</th>
+    				</tr>
+    				<tr>
+    					<td>04.18.2009</td>
+    					<td>Augue non nibh</td>
+    					<td>Commodo <a href="index.html">metus</a> vestibulum hdhdh djdjdj djdjdj</td>
+    				</tr>
+    				<tr class="altrow">
+    					<td>04.18.2009</td>
+    					<td>Fusce ut diam</td>
+    					<td>Purus in eget odio in sapien</td>
+    				</tr>
+    				<tr>
+    					<td>04.18.2009</td>
+    					<td>Augue non nibh</td>
+    					<td>Adipiscing blandit </td>
+    				</tr>
+    				<tr class="altrow">
+    					<td>04.18.2009</td>
+    					<td>Sed vestibulum</td>
+    					<td>Cras <a href="index.html">lobortis</a> commodo </td>
+    				</tr>
+    			</table>
+    			
+    			<h3>iBagens e icones</h3>
+    			
+    			<figure>
+    			  <img src="http://html5doctor.com/wp-content/uploads/2010/03/macaque.jpg" alt="Macaque in the trees">
+    			  <figcaption>um prato de comida fotogrado no instagram <a href="">fotografo legal</a></figcaption>
+    			</figure>
+    			
+    								
+    			<h3>Form de contato</h3>		
+    			
+    			<form action="index.html" method="get" id="contactform">		
+    								
+    				<p>manda uma mensagem aê</p>
+    			
+    				<p>
+    					<label for="subject">Subject</label><br />
+             		<select id="subject" name="subject" tabindex="1">
+               			<option value="1">opção um</option>
+              			<option value="2">Opção dois</option>
+              	 		<option value="3">Opção treis</option>
+             		</select>
+    				</p>	
+    			
+    				<p>	
+    					<label for="name">Seu lindo nomezinho</label><br />
+    					<input id="name" name="name" value="vadisnete nao, pfvr" type="text" tabindex="2" />
+    				</p>
+    			
+    				<p>
+    					<label for="email">Seu e-mail</label><br />
+    					<input id="email" name="email" value="H_tinha@bla bla nope" type="text" tabindex="3" />
+    				</p>
+    					
+    				<p>
+    					<label for="message">Sua linda mensagem</label><br />
+    					<textarea id="message" name="message" rows="10" cols="20" tabindex="4"></textarea>
+    				</p>	
+    			
+    				<p class="no-border">
+    					<input class="button" type="submit" value="Submit" tabindex="5" />
+             		<input class="button" type="reset" value="Reset" tabindex="6" />	
+    				</p>
+    					
+    			</form>
+			</div>
+			<div class="sidebar">
+			    <h2>Este é um menu de navegação lateral</h2>
+			    
+			    <ul class="vertical navigation">
+			        <li><a href="#">sobre eu</a></li>
+			        <li><a href="#">sobre tu</a></li>
+			        <li><a href="#">sobre ele</a></li>
+			        <li><a href="#">sobre nos</a></li>
+			        <li><a href="#">sobre vossotros</a></li>
+			        <li><a href="#">sobre meu cachorro</a></li>
+			    </ul>
+			    
+			    <h2>BOTÕESSS!</h2>
+			    <div class="buttonMargin">
+			    <button>Normal</button><br>
+			    <button class="red">vermei</button><br>
+			    <button class="green">vrede</button><br>
+			    <button class="white">branco</button><br>
+			    <button class="orange">mexirica</button><br>
+			    <button class="pink">rosa (huuuum)</button><br>
+			    <button class="purple">roxo</button><br>
+			    
+			    <input type="file">
+			    </div>
+			    
+			    <style>.buttonMargin button {
+			        margin-bottom: 10px;
+			    }</style>
+			</div>
+        </div>
+    </body>
+</html>
