@@ -5,8 +5,9 @@
 * {
     margin: 0;
     padding: 0;
-    
-    -webkit-font-smoothing: antialiased;
+   
+    text-shadow: 0 0 1px rgba(0,0,0,0.3); /*hack de css3 pra fonta parecer mais "smooth" */
+    -webkit-font-smoothing: antialiased;  /* evitar serrilhado na fonte por meio de font face */
     
     /* uma box model melhor */
     -webkit-box-sizing: border-box;
