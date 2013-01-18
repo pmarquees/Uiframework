@@ -1,5 +1,5 @@
-
- /*   This is to reset the entire browser css
+/*
+  Isto vai resetar o css padrão do navegador =)
  */
  
 * {
@@ -26,13 +26,12 @@
     }
 
 /**
- *  corrigindo alguns bugs
+ *  corrigindo alguns bugs de wordpress
  */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
 }
-audio:not([controls]), [hidden], .print-only {
-    display: none;
+
 }
 img, fieldset, legend {
     border: none;
@@ -90,7 +89,7 @@ blockquote {
         }
 
 /*
- *   resetar inputs
+ *   resetar inputs e webkits
  */
 input, textarea, button {
     font-family: inherit;
