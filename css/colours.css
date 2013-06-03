@@ -1,0 +1,216 @@
+::selection {
+    background: #fff9e6;
+    color: #997649;
+}
+
+body, html {
+    color: #65717d;
+}
+    body.dark {
+        background: #373c44;
+    }
+
+a {
+    color: #1b5fa5;
+}
+    a:hover {
+        color: #76a314;
+    }
+    p a {
+        border-bottom: 1px solid #d3e2f1;
+    }
+        p a:hover {
+            border-color: #e2efc6;
+        }
+        
+b {
+    color: #505b67;
+}
+
+blockquote {
+    background: #e9f0f8;
+    color: #3f5d80;
+}
+    blockquote + cite:after {
+        border-top: 10px solid #e9f0f8;
+    }
+
+span.hilite, i.hilite, mark {
+    background: #ebf2fc;
+    color: #3e649e;
+}
+    
+.header {
+    background: #f1f3f5;
+}
+    .dark .header {
+        background: rgba(0,0,0,.1);
+    }
+
+h1 {
+    color: #424b55;
+}
+    .dark :-webkit-any(h1, h2, h3, h4) {
+        color: #fff;
+    }
+h2, h3, h4 {
+    color: #4c5762;
+}
+
+nav li a {
+    color: #7e8797;
+}
+    nav li a:hover {
+        color: #4d535e;
+    }
+    nav li.active a, nav li a.active {
+        background: #fff;
+    }
+
+/**
+ *   Forms
+ */
+:placeholder { color: #b3bdcd; }
+    ::-webkit-input-placeholder { color: #b3bdcd; }
+    ::-moz-placeholder { color: #b3bdcd; }
+
+/* Standard inputs */
+input, textarea {
+    border: 2px solid #b9c1ce;
+    color: #5f6672;
+    
+    background: transparent;
+}
+    input:focus, textarea:focus {
+        border-color: #97a7c3;
+        background: #f3f6fc;
+    }
+select {
+    background: #9cb1ca url('arrow.png') no-repeat 100% 50%;
+    border: 2px solid #7991ac;
+    color: #fff;
+}
+select option{
+background-color:#b7cfed;
+}
+
+.success input {
+    border-color: #82b01e;
+    color: #6e7e4a;
+}
+    .success input:focus {
+        background: #fbfff3;
+    }
+    .success .status {
+        color: #82b01e;
+    }
+.error input {
+    border-color: #d13d29;
+    color: #884b43;
+}
+    .error input:focus {
+        background: #fff6f5;
+    }
+    .error .status {
+        color: #d13d29;
+    }
+    
+    
+/* Buttons! So many buttons! */
+button, .btn, [type=submit], [type=button] {
+    background: #3f70c0;
+    color: #fff;
+}
+    button:hover, .btn:hover, [type=submit]:hover {
+        background: #2151a1;
+        color: #fff;
+    }
+button.green, .btn.green, [type=submit].green,
+button.primary, .btn.primary, [type=submit].primary {
+    background: #75ab1f;
+}
+    button.green:hover, .btn.green:hover, [type=submit].green:hover,
+    button.primary:hover, .btn.primary:hover, [type=submit].primary:hover {
+        background: #619214;
+    }
+button.red, .btn.red, [type=submit].red,
+button.danger, .btn.danger, [type=submit].danger /* High voltage */ {
+    background: #cf402d;
+}
+    button.red:hover, .btn.red:hover, [type=submit].red:hover,
+    button.danger:hover, .btn.danger:hover, [type=submit].danger:hover {
+        background: #a2200f;
+    }
+button.orange, .btn.orange, [type=submit].orange,
+button.warning, .btn.warning, [type=submit].warning {
+    background: #de8925;
+}
+    button.orange:hover, .btn.orange:hover, [type=submit].orange:hover,
+    button.warning:hover, .btn.warning:hover, [type=submit].warning:hover {
+        background: #c56110;
+    }
+button.white, .btn.white, [type=submit].white, [type=reset] {
+    background: #dee6f2;
+    color: #3c5378;
+}
+    button.white:hover, .btn.white:hover, [type=submit].white:hover, [type=reset]:hover {
+        background: #c4d4eb;
+        color: #24395a;
+    }
+button.pink, .btn.pink, [type=submit].pink {
+    background: #de3882;
+}
+    button.pink:hover, .btn.pink:hover, [type=submit].pink:hover {
+        background: #bb1d63;
+    }
+button.purple, .btn.purple, [type=submit].purple {
+    background: #813fbe;
+}
+    button.purple:hover, .btn.purple:hover, [type=submit].purple:hover {
+        background: #63279c;
+    }
+    
+button[disabled], .btn[disabled], [type=submit][disabled],
+button.disabled, .btn.disabled, [type=submit][disabled] {
+    background: #cbcfd6;
+    color: #6f7886;
+}
+
+::-webkit-file-upload-button {
+    background-color: #33aad6;
+    color: #fff;
+}
+    ::-webkit-file-upload-button:hover {
+        background-color: #1e8ab2;
+    }
+    
+    
+/**
+ *   Tables
+ */
+th, thead td {
+    color: #41526f;
+    border-bottom: 2px solid #dee3eb;
+}
+
+/**
+ *   List items
+ */
+li:before {
+    color: #8aa0bf;
+}
+
+/**
+ *   Navigation
+ */
+.navigation a {
+    color: #606b77;
+}
+    .navigation a:hover {
+        background: #f5f7fa;
+    }
+.navigation li {
+    border-color: #dee5ec !important;
+}
+    
+/* Prism syntax highlighting */
