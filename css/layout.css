@@ -6,10 +6,10 @@
         position: relative;
         left: 20px;
         
-        width: 1000px;
+        max-width: 1000px;
     }
     .wrap > * {
-        max-width: 960px;
+        max-width: 1000px;
     }
 
 /* sistema de grids - from butterfly */
@@ -19,18 +19,18 @@
     margin-bottom: 20px;
     margin-right: 20px;
 }
-    .col12 { width: 960px; }
-    .col11 { width: 880px; }
-    .col10 { width: 799px; }
-    .col9 { width: 700px; }
-    .col8, .content { width: 634px; }
-    .col7 { width: 551px; }
-    .col6, .half, .full input, .full select, .full textarea { width: 470px; }
-    .col5 { width: 389px; }
-    .col4, .third, .sidebar { width: 307px; }
-    .col3, .full label, .full .help { width: 224px; }
-    .col2 { width: 143.5px; }
-    .col1 { width: 61.75px; }
+    .col12 { background-color:#fc0;width: 100%; }
+    .col11 { background-color:#fc0;width: 91.66666666666666%; }
+    .col10 { background-color:#fc0;width: 83.33333333333334%; }
+    .col9 { background-color:#fc0;width: 75%; }
+    .col8, .content { background-color:#fc0;width: 66.66666666666666%; }
+    .col7 { background-color:#fc0;width: 58.333333333333336%; }
+    .col6, .half, .full input, .full select, .full textarea { background-color:#fc0;width: 50%; }
+    .col5 { background-color:#fc0;width: 41.66666666666667%; }
+    .col4, .third, .sidebar { background-color:#fc0;width: 33.33333333333333%; }
+    .col3, .full label, .full .help { background-color:#fc0;width: 25%; }
+    .col2 { background-color:#fc0;width: 16.666666666666664%; }
+    .col1 { background-color:#fc0;width: 8.333333333333332%; }
     
 /* Offsets */
 .offset8 { margin-left: 654px; }
